@@ -52,6 +52,8 @@ From Parrot OS, identify the active network interface using:
 ifconfig
 
 ```
+## OUTPUT:
+
 <img width="1025" height="493" alt="image" src="https://github.com/user-attachments/assets/674034b7-c526-4ae1-8cb3-a16e07992bf0" />
 
 
@@ -59,37 +61,73 @@ Examine the ARP neighbor table using:
 ```
 ip neigh
 ```
+
+## OUTPUT:
+
 <img width="895" height="108" alt="image" src="https://github.com/user-attachments/assets/b33be575-8134-4972-85d6-63053b682d92" />
 
 Check the routing information using:
 ```
 ip route
 ```
+## OUTPUT:
+
 <img width="1291" height="120" alt="image" src="https://github.com/user-attachments/assets/e6091849-e77c-4df4-921d-945c99558f58" />
 
 ARP spoofing concepts and their effects on IP-to-MAC address mappings were studied in an isolated virtual network.
 
 
  dsniff:
+ 
+dsniff is a collection of network auditing and traffic analysis tools used to examine network traffic.
 
-
-
-
-
-
-In Metasploit open the ftp console as below. Also you can try other ftp websites ftp.vim.org
+Install dsniff using:
+```
+sudo apt update
+sudo apt install dsniff -y
+```
+Check the available utilities using:
+```
+dsniff -h
+dpkg -L dsniff
+```
 ## OUTPUT:
 
+<img width="1088" height="852" alt="image" src="https://github.com/user-attachments/assets/b1907a23-ebd7-462b-8002-c4a54d09c3cf" />
 
+Metasploit Framework:
+Metasploit is a penetration-testing framework used for security testing and vulnerability assessment.
 
-
-In Kali issue the following commands:
-sudo dsnifff
+Open Metasploit using:
+```
+msfconsole
+```
 ## OUTPUT:
 
+<img width="1157" height="547" alt="image" src="https://github.com/user-attachments/assets/91d2a67e-79da-4d55-9671-27d8e8d11269" />
+
+Search for FTP-related auxiliary modules using:
+```
+search type:auxiliary ftp
+```
+## OUTPUT:
+<img width="1816" height="845" alt="image" src="https://github.com/user-attachments/assets/ad375a78-5690-428a-a7bd-c83f0410078d" />
+
+Examine FTP service identification modules.
+
+Wireshark:
+Wireshark is a network protocol analyzer used to capture and examine network packets.
+
+Invoke Wireshark using:
+```
+sudo wireshark
+```
+<img width="1917" height="810" alt="image" src="https://github.com/user-attachments/assets/c26bc159-cdfd-4032-94bf-b0ca8b881c0b" />
 
 
-Invoke the wireshark and examine the various menus  and controls of the tool:
+
+
+
 
 
 ## RESULT:
