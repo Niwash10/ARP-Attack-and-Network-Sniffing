@@ -134,11 +134,51 @@ Examine the various menus, controls, packet details and protocol information ava
 ARP packet:
 <img width="977" height="813" alt="image" src="https://github.com/user-attachments/assets/dc39e2cb-4ff6-463b-a7f5-3d3dfeb34466" />
 
+Ettercap:
+Ettercap is a network security tool that supports active and passive network analysis and host discovery.
+
+Open Ettercap using:
+```
+sudo ettercap -G
+```
+Explore the following menus:
+
+Sniff
+Hosts
+Targets
+View
+Plugins
+Examine the graphical interface and network analysis features.
+
+## OUTPUT:
+<img width="952" height="811" alt="image" src="https://github.com/user-attachments/assets/564ec7c5-2a8c-40a1-9bd5-14443aace59d" />
+
+tcpdump:
+tcpdump is a command-line network packet analyzer used to capture and examine network traffic.
+
+Check the installed version using:
+```
+tcpdump --version
+```
+Examine the available network interfaces using:
+```
+sudo tcpdump -D
+```
+## OUTPUT:
+
+<img width="1090" height="382" alt="image" src="https://github.com/user-attachments/assets/2f198e77-a068-47f0-a01c-2794a0fab795" />
 
 
+Capture ARP packets on the active interface using:
+```
+sudo tcpdump -i enp0s3 arp
+```
+Stop packet capturing using Ctrl + C.
 
+## OUTPUT:
+<img width="1002" height="335" alt="image" src="https://github.com/user-attachments/assets/30a6bf56-93d9-40a7-8bfa-839b324e4388" />
 
 
 
 ## RESULT:
-The kali linux tools for ARP Attack and Network Sniffing were identified successfully
+Thus, the network security and network sniffing tools available in Parrot OS, including arpspoof, dsniff, Metasploit, Wireshark, Ettercap and tcpdump, were explored successfully. The concepts of ARP attacks, ARP tables, network interfaces and packet analysis were studied.
