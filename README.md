@@ -122,7 +122,17 @@ Invoke Wireshark using:
 ```
 sudo wireshark
 ```
+## OUTPUT:
+
 <img width="1917" height="810" alt="image" src="https://github.com/user-attachments/assets/c26bc159-cdfd-4032-94bf-b0ca8b881c0b" />
+
+Examine the various menus, controls, packet details and protocol information available in Wireshark.
+
+## OUTPUT:
+<img width="1917" height="922" alt="image" src="https://github.com/user-attachments/assets/5f5eb529-ba06-4262-b35e-b367dd83a114" />
+
+ARP packet:
+<img width="977" height="813" alt="image" src="https://github.com/user-attachments/assets/dc39e2cb-4ff6-463b-a7f5-3d3dfeb34466" />
 
 
 
